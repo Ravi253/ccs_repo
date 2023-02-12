@@ -10,7 +10,7 @@ spring:
     generate-ddl: false
     hibernate:
       ddl-auto: update
-app
-  : custom
-    : val1: 1
-    : val2: 2
+app:
+  custom:
+    val1: 1
+    val2: 2
