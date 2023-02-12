@@ -12,5 +12,5 @@ spring:
       ddl-auto: update
 app:
   custom:
-    val1: 1
-    val2: 2
+    val1: 3
+    val2: 4
