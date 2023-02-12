@@ -10,3 +10,4 @@ spring:
     generate-ddl: false
     hibernate:
       ddl-auto: update
+testVal:  test1
