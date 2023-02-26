@@ -1,7 +1,6 @@
 store:
   name: store1
   address: vijayawada3
-  
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/pharmacydb
