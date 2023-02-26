@@ -13,23 +13,5 @@ spring:
     generate-ddl: false
     hibernate:
       ddl-auto: update
-  config:
-    import:
-      -  configserver:http://localhost:2030
-management:
-  endpoint:
-    refresh:
-      enabled: true
-  endpoints:
-    web:
-      exposure:
-        include:
-        - refresh
-
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://localhost:2031/eureka
+ 
 
