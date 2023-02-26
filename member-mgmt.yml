@@ -1,0 +1,22 @@
+spring:
+  config:
+    import:
+    - configserver:http://localhost:2030
+  datasource:
+    url: jdbc:mysql://localhost:3306/membermgmt
+    username: piper
+    password: lps758
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    database-platform: org.hibernate.dialect.MySQL8Dialect 
+    hibernate:
+      ddl-auto: update
+      
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:2031/eureka
